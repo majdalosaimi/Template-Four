@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <!-- Render All The Elements -->
+    <link rel="stylesheet" href="css/normalize.css">
+    <!-- Font Awesome Library -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- Framework file -->
+    <link rel="stylesheet" href="css/framework.css">
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/main.css">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;500&amp;display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="page d-flex">
+        <div class="sidebar bg-white p-20 p-relative">
+            <h3 class="p-relative txt-c mt-0">Elzero</h3>
+            <ul>
+                <li>
+                    <a class="active d-flex align-cen fs-14 c-black rad-6 p-10" href="index.html">
+                        <i class="fa-solid fa-chart-bar fa-fw"></i>
+                        <span class="hide-mobile">Dashboard</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-cen fs-14 c-black rad-6 p-10" href="settings.html">
+                        <i class="fa-solid fa-gear fa-fw"></i>
+                        <span class="hide-mobile">Settings</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-cen fs-14 c-black rad-6 p-10" href="profile.html">
+                        <i class="fa-regular fa-user fa-fw"></i>
+                        <span class="hide-mobile">Profile</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-cen fs-14 c-black rad-6 p-10" href="projects.html">
+                        <i class="fa-solid fa-diagram-project fa-fw"></i>
+                        <span class="hide-mobile">Projects</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-cen fs-14 c-black rad-6 p-10" href="courses.html">
+                        <i class="fa-solid fa-graduation-cap fa-fw"></i>
+                        <span class="hide-mobile">Courses</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-cen fs-14 c-black rad-6 p-10" href="friends.html">
+                        <i class="fa-regular fa-circle-user fa-fw"></i>
+                        <span class="hide-mobile">Friends</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-cen fs-14 c-black rad-6 p-10" href="files.html">
+                        <i class="fa-regular fa-file fa-fw"></i>
+                        <span class="hide-mobile">Files</span>
+                    </a>
+                </li>
+                <li>
+                    <a class="d-flex align-cen fs-14 c-black rad-6 p-10" href="plans.html">
+                        <i class="fa-regular fa-credit-card fa-fw"></i>
+                        <span class="hide-mobile">Plans</span>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="content w-full">
+            <!-- Start Head -->
+            <header class="bg-white p-15 between-flex">
+                <div class="search p-relative">
+                    <input class="p-10 rad-10" type="search" placeholder="Type A Keyword">
+                </div>
+                <div class="icons d-flex align-cen">
+                    <div class="notification p-relative">
+                        <i class="fa-regular fa-bell fa-lg"></i>
+                    </div>
+                    <img src="img/avatar.jpeg" alt="">
+                </div>
+            </header>
+            <!-- End Head -->
+            <h1 class="p-relative">Dashboard</h1>
+            <div class="wrapper d-grid gap-20 ml-20 mr-20">
+                <!-- Start Welcome Widget -->
+                <div class="welcome bg-white rad-10 txt-c-mobile block-mobile">
+                        <div class="intro p-20 d-flex space-btw bg-eee">
+                            <div class="text">
+                                <h2 class="m-0">Welcome</h2>
+                                <p class="c-grey mt-5">Saud</p>
+                            </div>
+                            <img src="img/welcome.png" class="hide-mobile" alt="">
+                        </div>
+                        <img src="img/avatar.jpeg" alt="" class="avatar">
+                    <div class="body txt-c d-flex p-20 mt-20 mb-20 block-mobile">
+                            <div>Saud Fisal <span class="d-block c-grey fs-14 mt-10">Developer</span></div>
+                            <div>76 <span class="d-block c-grey fs-14 mt-10">Projects</span></div>
+                            <div>8600&dollar; <span class="d-block c-grey fs-14 mt-10">Earned</span></div>
+                    </div>
+                        <a href="profile.html" class="visit d-block fs-14 btn-shape bg-blue c-white w-fit bg-hover">Profile</a>
+                </div>
+                <!-- End Welcome Widge -->
+                <!-- Start Draft Widget -->
+                <div class="draft p-20 bg-white rad-10">
+                    <h2 class="mt-0 mb-10">Quick Draft</h2>
+                    <p class="mt-0 mb-20 fs-15 c-grey">Write A Draft For Your Ideas</p>
+                    <form>
+                        <input class="d-block b-none bg-eee w-full p-10 rad-6 mb-20" type="text" placeholder="Title">
+                        <textarea class="d-block b-none bg-eee w-full p-10 rad-6 mb-20" name="" id="" placeholder="Your Thought"></textarea>
+                        <input class="save d-block fs-14 b-none bg-blue c-white btn-shape w-fit bg-hover" type="submit" value="Save">
+                    </form>
+                </div>
+                <!-- End Draft Widget -->
+                <!-- Start Yearly Targets Widget -->
+                <div class="targets bg-white p-20 rad-10">
+                    <h2 class="m-0">Yearly Targets</h2>
+                    <p class="mt-10 mb-20 c-grey fs-15">Targets Of The Year</p>
+                    <div class="box d-flex align-cen gap-20 mb-20">
+                        <div class="icon center-flex">
+                            <i class="fa-solid fa-dollar-sign fa-lg c-blue"></i>
+                        </div>
+                        <div class="p-holder">
+                            <p class="c-grey fs-14 m-0">Money</p>
+                            <h4 class="mt-10 mb-20">20,000$</h4>
+                            <div class="progress w-full" >
+                                <span class="bg-blue d-block p-relative" style="width: 85%;" data-prog="85%"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box d-flex align-cen gap-20 mb-20">
+                        <div class="icon center-flex">
+                            <i class="fa-solid fa-code fa-lg c-orange"></i>
+                        </div>
+                        <div class="p-holder">
+                            <p class="c-grey fs-14 m-0">Projects</p>
+                            <h4 class="mt-10 mb-20">24</h4>
+                            <div class="progress">
+                                <span class="bg-orange d-block p-relative" style="width: 55%;" data-prog="55%"></span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="box d-flex align-cen gap-20 mb-20">
+                        <div class="icon center-flex">
+                            <i class="fa-solid fa-user fa-lg c-green"></i>
+                        </div>
+                        <div class="p-holder">
+                            <p class="c-grey fs-14 m-0">Team</p>
+                            <h4 class="mt-10 mb-20">12</h4>
+                            <div class="progress">
+                                <span class="bg-green d-block p-relative" style="width: 75%;" data-prog="75%"></span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- End Yearly Targets Widget -->
+                <div class="bg-white rad-10 txt-c-mobile block-mobile">
+                    <h2>Tickets Statistics</h2>
+                </div>
+                <div class="bg-white rad-10 txt-c-mobile block-mobile">
+                    <h2>Latest News</h2>
+                </div>
+                <div class="bg-white rad-10 txt-c-mobile block-mobile">
+                    <h2>Latest Tasks</h2>
+                </div>
+                <div class="bg-white rad-10 txt-c-mobile block-mobile">
+                    <h2>Top Search Items</h2>
+                </div>
+                <div class="bg-white rad-10 txt-c-mobile block-mobile">
+                    <h2>Latest Uploads</h2>
+                </div>
+                <div class="bg-white rad-10 txt-c-mobile block-mobile">
+                    <h2>Last Project Progress</h2>
+                </div>
+                <div class="bg-white rad-10 txt-c-mobile block-mobile">
+                    <h2>Reminders</h2>
+                </div>
+                <div class="bg-white rad-10 txt-c-mobile block-mobile">
+                    <h2>Latest Post</h2>
+                </div>
+                <div class="bg-white rad-10 txt-c-mobile block-mobile">
+                    <h2>Social Media Stats</h2>
+                </div>
+                <div class="bg-white rad-10 txt-c-mobile block-mobile">
+                    <h2>Projects</h2>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
