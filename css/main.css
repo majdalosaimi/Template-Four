@@ -351,3 +351,60 @@ header .icons img {
 }
 
 /* End Yearly Targets Widget */
+/* Start Tickets Statistics */
+.tickets .box {
+    flex-basis: calc(50% - 10px);
+    border: 1px solid var(--border-color);
+}
+
+@media (max-width: 767px) {
+    .tickets .box {
+        flex-basis: 100%;
+    }
+}
+
+/* End Tickets Statistics */
+/* Start Latest News */
+.news .news-row:not(:last-of-type) {
+    border-bottom: 1px solid #eee;
+    padding-bottom: 20px;
+    margin-bottom: 20px;
+}
+
+.news .news-row img {
+    width: 100px;
+}
+
+.news .news-row .info {
+    flex-grow: 1;
+}
+
+@media (max-width: 767px) {
+    .news .news-row {
+        display: block;
+    }
+
+    .news .news-row .info h4 {
+        margin-top: 5px;
+    }
+
+    .news .news-row .label {
+        width: fit-content;
+        margin: 10px auto;
+        display: block;
+    }
+}
+
+/* End Latest News */
+/* Start Tasks */
+.tasks .task-row i {
+    transition: var(--main-transition);
+}
+
+/* End Tasks */
+/* Start Uploads */
+.uploads ul li img {
+    width: 40px;
+    height: 40px;
+}
+/* End Uploads */
