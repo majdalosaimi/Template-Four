@@ -84,6 +84,10 @@
     padding-bottom: 20px;
 }
 
+.pl-15 {
+    padding-left: 15px;
+}
+
 .m-0 {
     margin: 0;
 }
@@ -110,6 +114,10 @@
 
 .mt-20 {
     margin-top: 20px;
+}
+
+.mt-25 {
+    margin-top: 25px;
 }
 
 .mr-10 {
@@ -142,6 +150,14 @@
 
 .mb-20 {
     margin-bottom: 20px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+}
+
+.ml-10 {
+    margin-left: 20px;
 }
 
 .ml-20 {
@@ -282,6 +298,10 @@
     border-radius: 10px;
 }
 
+.rad-half {
+    border-radius: 50%;
+}
+
 .b-none {
     border: none;
 }
@@ -312,5 +332,4 @@
     padding: 4px 10px;
     border-radius: 6px;
 }
-
 /* End Components */
